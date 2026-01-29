@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS sensus_ekonomi_staging (
    - Executed repeatedly for each CSV part (Part1–PartN)
    - CSV format standardized using semicolon delimiter
    ============================================================ */
-LOAD DATA LOCAL INFILE 'C:/Users/erkha/Downloads/Output_PC7_Part2.csv'
+LOAD DATA LOCAL INFILE 'C:/Users/~.csv'
 INTO TABLE sensus_ekonomi_staging
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
